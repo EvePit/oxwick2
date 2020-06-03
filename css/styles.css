@@ -1,0 +1,52 @@
+/***************TAG SELECTORS****************/
+body {margin: 0;
+  background-image: url("background2.jpg");
+}
+
+thead {border-bottom: 1px solid black;
+  padding-top : 70px;
+border-left:  1px solid black;
+border-right:  1px solid black;
+}
+
+td, table {
+border-collapse: collapse;
+}
+
+th {
+border-collapse: collapse;
+  border: 1px solid black;
+padding:8px;
+}
+
+hr {margin: 0;
+border-width:30px;
+border-color: #df825f;
+border-style:solid}
+/***************CLASS SELECTORS****************/
+.panel {border-width:6px;
+border-style: inset; border-color: black;
+  background-color: #dfb15b; width:
+  90%; margin:auto;
+  margin-left:50px;
+ }
+
+
+.inboxes {
+  width: 450px;
+}
+
+
+/***************ID SELECTORS****************/
+#toptable {
+  background-color: #707795;
+  text-align: center;
+  color: white;
+  height: 120px;
+font-size:30px;
+}
+
+#bottomtable {background-color:#707795 ;
+height: 120px;
+font-size: 20px
+}
